@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emploi du temps SMI S4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .info-table td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: center;
+    }
+    .schedule-table th,
+    .schedule-table td {
+      border: 1px solid #792222;
+      padding: 6px;
+      vertical-align: top;
+      text-align: center;
+    }
+    .schedule-table .time-break {
+      background-color: #000;
+      width: 5px;
+      padding: 0;
+    }
+    .schedule-table .header-row th {
+      background-color: darkblue;
+      color: #fff;
+    }
+    .day-cell {
+      background-color: #eee;
+      font-weight: bold;
+      width: 100px;
+    }
+    .blocked {
+      background-color: #ffffff;
+      color: #ffffff;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 0;
+    }
+    hr {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <table class="info-table">
+    <tr>
+      <td>Département Informatique<br>Filière : <strong>SMI</strong></td>
+      <td>Année Universitaire : 2024/2025<br><strong>Semestre 04</strong></td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2>Emploi du temps</h2>
+
+  <table class="schedule-table">
+    <thead>
+      <tr class="header-row">
+        <th></th>
+        <th>9h00–10h30</th>
+        <th>10h35–12h05</th>
+        <th class="time-break"></th>
+        <th>12h15–13h45</th>
+        <th>13h50–15h20</th>
+        <th class="time-break"></th>
+        <th>15h30–17h00</th>
+        <th>17h05–18h35</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="day-cell">Lundi</td>
+        <td></td>
+        <td></td>
+        <td class="time-break"></td>
+        <td>Programmation Web Dynamique<br>Cm – Amphi A<br>Prof. K. Omari</td>
+        <td>Programmation Web Dynamique<br>Td/Tp – Amphi A<br>Prof. K. Omari</td>
+        <td class="time-break"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="day-cell">Mardi</td>
+        <td></td>
+        <td></td>
+        <td class="time-break"></td>
+        <td></td>
+        <td></td>
+        <td class="time-break"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="day-cell">Mercredi</td>
+        <td></td>
+        <td></td>
+        <td class="time-break"></td>
+        <td></td>
+        <td></td>
+        <td class="time-break"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="day-cell">Jeudi</td>
+        <td></td>
+        <td></td>
+        <td class="time-break"></td>
+        <td>Génie Logiciel<br>Cm – Amphi A<br>Prof. A. Bouain</td>
+        <td>Génie Logiciel<br>Cm – Amphi A<br>Prof. A. Bouain</td>
+        <td class="time-break"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="day-cell">Vendredi</td>
+        <td></td>
+        <td></td>
+        <td class="time-break"></td>
+        <td></td>
+        <td class="blocked"></td>
+        <td class="time-break"></td>
+        <td>IHM<br>Cm – Amphi A<br>Prof. M. Benaddy</td>
+        <td>IHM<br>Cm – Amphi A<br>Prof. M. Benaddy</td>
+      </tr>
+      <tr>
+        <td class="day-cell">Samedi</td>
+        <td>Modélisation<br>Td – Amphi A<br>Prof. J. Oudaani</td>
+        <td>Modélisation<br>Cm – Amphi A<br>Prof. A. El Mouatasim</td>
+        <td class="time-break"></td>
+        <td></td>
+        <td></td>
+        <td class="time-break"></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="schedule-table">
+    <thead>
+      <tr class="header-row">
+        <th>Les séances du vendredi</th>
+        <th>8h30–10h00</th>
+        <th>10h05–11h35</th>
+        <th class="time-break"></th>
+        <th>11h45–13h15</th>
+        <th class="time-break"></th>
+        <th>15h00–16h30</th>
+        <th class="time-break"></th>
+        <th>16h45–18h15</th>
+      </tr>
+    </thead>
+  </table>
+
+</body>
+</html>
